@@ -4682,6 +4682,33 @@
         font-size: 22px !important;
       }
     }
+
+    /* Published tweak: small alignment fixes */
+    .nav-brand {
+      transform: translateY(3px);
+    }
+
+    .problem-list li::after {
+      top: 82px !important;
+    }
+
+    .to-top {
+      display: inline-flex !important;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+      padding-bottom: 4px;
+    }
+
+    @media (max-width: 760px) {
+      .problem-list li::after {
+        top: 64px !important;
+      }
+
+      .to-top {
+        padding-bottom: 5px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -4834,7 +4861,7 @@
         <div class="club-copy">
           <p>Это пространство для открытых разговоров о&nbsp;сложных и&nbsp;важных темах.</p>
           <p>Мы обсуждаем любовь, смерть, дисциплину, травму, феминизм и&nbsp;другие темы, которые участники выбирают сами через голосование. Встречаемся раз в&nbsp;месяц.</p>
-          <p>Иногда вместо дискуссии проходит киновечер: выбираем фильм и&nbsp;обсуждаем его после просмотра.</p>
+          <p>Иногда вместо дискуссии проходит киновечер:<br>выбираем фильм и&nbsp;обсуждаем его после просмотра.</p>
         </div>
         <div class="club-topics" aria-label="Темы клуба">
           <span>любовь</span>
